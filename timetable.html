@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+    <style>
+        h1{
+            text-align: center;
+            font-size: medium;
+        }
+        table,td,th{
+            
+            border: 2px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        th{
+            background-color: bisque;
+        }
+        table{
+            height: 300px;
+            width: 700px;
+        }
+        tr:nth-child(even){
+            background-color: rgb(214, 181, 137);
+        }
+        tr:nth-child(odd){
+            background-color:gray;
+        }
+      
+    </style>
+</head>
+<body>
+    <h1 style="font-size: larger;">Sree Vidyanikethan Engineering College</h1>
+    <div style="text-align: center;">
+    <img src="https://image3.mouthshut.com/images/imagesp/925716617s.jpg" width="150" height="50" alt="logo">
+    </div>
+    <h1> <u> Department Of Computer Science and Systems Engineering</u></h1>
+    <h1> <u> Time Table(2022-2023)</u></h1>
+
+    <table align="center">
+        <caption><b>III B.Tech II Semester (Section-B)</b></caption>
+        <tr>
+            <th>Day/Hour</th>
+            <th>10:00AM TO 11:00AM</th>
+            <th>11:00AM TO 12:00PM</th>
+            <th>12:00PM TO 1:00PM</th>
+            <th rowspan="6" bgcolor="bisque">LUNCH BREAK</th>
+            <th>2:15PM TO 3:15PM</th>
+            <th>3:15PM TO 4:15PM</th>
+            <th>4:15PM TO 5:15PM</th>
+        </tr>
+        <tr>
+            <td bgcolor="bisque"><b> MON</b></td>
+            <td>IOT</td>
+            <td>IS</td>
+            <td>WT</td>
+            <td>FOE</td>
+            <td>PBEA</td>
+            <td>ML</td>
+        </tr>
+        <tr>
+            <td bgcolor="bisque"><b>TUE</b></td>
+            <td colspan="3">ML LAB</td>
+            <td>IOT</td>
+            <td>BDT</td>
+            <td>PBEA</td>
+        </tr>
+        <tr>
+            <td bgcolor="bisque"><b>WED</b></td>
+            <td colspan="3">WT LAB</td>
+            <td>BDT</td>
+            <td>ML</td>
+            <td>WT</td>
+        </tr>
+        <tr>
+            <td bgcolor="bisque"><b>THU</b></td>
+            <td>ML</td>
+            <td>WT</td>
+            <td>IS</td>
+            <td>FOE</td>
+            <td>PBEA</td>
+            <td>IOT</td>
+        </tr>
+        <tr>
+            <td bgcolor="bisque"><b>FRI</b></td>
+            <td colspan="3">DAD LAB</td>
+            <td>LIB</td>
+            <td>BDT</td>
+            <td>IS</td>
+        </tr>
+    </table>
+</body>
+</html>

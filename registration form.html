@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        h1{
+            text-align: center;
+            background-color: blue;
+            color: white;
+        }
+        body{
+            background-color: rgb(10, 216, 216);
+        }
+        legend{
+            font-size: large;
+            color: rgb(64, 8, 161);
+            background-color: rgb(195, 128, 41);
+        }
+    </style>
+</head>
+<body>
+    <h1>Course Registration</h1>
+    
+    <form action="https://www.coursera.org/login" target="_blank">
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label for="fname">First Name:</label>
+        &emsp;<input type="text" name="fname" id="fname" required>
+        <br><br>
+        <label for="lname">Last Name:</label>
+        &emsp;<input type="text" name="lname" id="lname" required>
+        <br><br>
+        <label for="uname">User Name:</label>
+        &emsp;<input type="text" name="uname" id="uname">
+        <br><br>
+        <label for="mail">E-Mail:</label>
+        &emsp;<input type="email" name="mail" id="mail" required>
+        <br><br>
+        <label for="pwd">Password:</label>
+        &emsp;<input type="password" name="pwd" id="pwd" required>
+        <br><br>
+        <label for="dob">D-O-B:</label>
+        &emsp;<input type="date" name="dob" id="dob">
+        <br><br>
+        <label >Select your gender: </label><br>
+            <input type="radio" id="Male" name="name" value="Male">
+            <label for="Male">Male</label>
+            <input type="radio" id="Female" name="name" value="Female">
+            <label for="Male">Female</label>
+            <input type="radio" id="Trance" name="name" value="Trance">
+            <label for="Trance">other</label>
+        <br><br>
+        <label for="phone">Phone Number:</label>
+        &emsp;<input type="text" name="phone" id="phone">
+        <br><br>
+        <label for="address">Address:</label>
+        &emsp;<input type="text" id="address" name="address" size="50">
+        <br><br>
+        <label for="pin">pincode:</label>
+        &emsp;<input type="text" id="pin" name="pin" size="6">
+        <br><br>
+    </fieldset>
+    <br><br>
+    <fieldset >
+        <legend>Educational Information</legend>
+        <label for="">Qualification:</label>
+            &emsp;<select name="Degree" id="Degree">
+                <option value="">select degree</option>
+                <option value="BTech">BTech</option>
+                <option value="degree">degree</option>
+                <option value="Medicine">medicine</option>
+            </select>
+        <br><br>
+        <label for="course">Course:</label>
+        &emsp;<input type="text" id="course" name="course" size="50">
+        <br><br>
+        <label for="grade">CGPA:</label>
+        &emsp;<input type="text" id="grade" name="grade" size="4">
+        <br><br>
+        <label for="college">College Name:</label>
+        &emsp;<input type="text" id="College" name="college" size="50">
+        <br><br>
+        <label for="address">College Address:</label>
+        &emsp;<input type="text" id="address" name="address" size="50">
+        <br><br>
+        <label for="pin">College pincode:</label>
+        &emsp;<input type="text" id="pin" name="pin" size="6">
+        <br><br>
+    </fieldset>
+    <br><br>
+    <label for="">Select Course:</label><br>
+        &emsp;<input type="checkbox" name="DBMS" id="DBMS" value="DBMS">
+        <label for="DBMS">DBMS</label>
+        &emsp;<input type="checkbox" name="Java" id="Java" value="Java">
+        <label for="Java">Java</label>
+        &emsp;<input type="checkbox" name="Python" id="Python" value="Python">
+        <label for="Python">Python</label>
+        &emsp;<input type="checkbox" name="ML" id="ML" value="ML">
+        <label for="ML">ML</label>
+        <br><br>
+        <label for="course">Additional Information:</label>
+        <br><br>
+        &emsp;<textarea name="course" id="course" cols="30" rows="5" required>Why do you want to register course..</textarea>
+        <br><br>
+        &emsp;<input type="submit" value="Register" id="Register" name="Register">
+    </form>
+    
+</body>
+</html>
